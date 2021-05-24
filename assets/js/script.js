@@ -15,7 +15,7 @@ for (var x = 0; x < localCities.length; x++){
 }
 var pullApi = function(city) {
 
-    fetch('http://api.openweathermap.org/geo/1.0/direct?q='+
+    fetch('https://api.openweathermap.org/geo/1.0/direct?q='+
         city+
         '&appid=03150e865e408eec25cb79def73567fc'
     )
@@ -54,7 +54,7 @@ var pullApi = function(city) {
         var dateH5 = document.createElement('h4')
         
         var weatherIcon = document.createElement('img')
-        weatherIcon.src = "http://openweathermap.org/img/w/" + weatherStats[4] + ".png"
+        weatherIcon.src = "https://openweathermap.org/img/w/" + weatherStats[4] + ".png"
         
         dateH5.innerHTML = city.charAt(0).toUpperCase() + 
         city.slice(1) + 
