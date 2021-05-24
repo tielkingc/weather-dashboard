@@ -9,62 +9,54 @@
     <title>Document</title>
 </head>
 <body>
+    <header><h1>Weather Dashboard</h1></header>
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Weather Dashboard</h1>
-            </div>
+        <div>
+            
         </div>
         <div class="row">
-            <div class="column">
-                <textarea class="city" value="franklin"></textarea>
-                <button class="city-search">Search</button>
-                <div class="city-list"></div>
+            <div class="column search">
+                <ul>
+                    <li><textarea class="city" placeholder="San Diego"></textarea></li>
+                    <li><button class="city-search btn btn-info">Search</button></li>
+                    <hr size="60">
+                    <li><div class="city-list"></div></li>
+                    <li><div class="delete-btn btn btn-danger">Delete All</div></li>
+                </ul>
             </div>
             <div class="column">
-                <div class="current"></div>
-                <div class="card-deck">
-                    <div class="card" id="card1">
-                      <div class="card-body">
-                        <h5 class="card-title date"></h5>
-                        <p class="card-text temp">Temp:</p>
-                        <p class="card-text wind">Wind:</p>
-                        <p class="card-text humidty">Humidity:</p>
-                      </div>
-                    </div>
-                    <div class="card" id="card2">
-                      <div class="card-body">
-                        <h5 class="card-title">Date</h5>
-                        <p class="card-text">Temp:</p>
-                        <p class="card-text">Wind:</p>
-                        <p class="card-text">Humidity:</p>
-                      </div>
-                    </div>
-                    <div class="card" id="card3">
-                      <div class="card-body">
-                        <h5 class="card-title">Date</h5>
-                        <p class="card-text">Temp:</p>
-                        <p class="card-text">Wind:</p>
-                        <p class="card-text">Humidity:</p>
-                      </div>
-                    </div>
-                    <div class="card" id="card4">
-                        <div class="card-body">
-                          <h5 class="card-title">Date</h5>
-                          <p class="card-text">Temp:</p>
-                          <p class="card-text">Wind:</p>
-                          <p class="card-text">Humidity:</p>
+                <div class="row main">
+                    <div class=" col-12 current rounded"></div>
+                </div>
+                <div class="row main">
+                    <div class="card-deck">
+                        <div class="card">
+                        <div class="card-body" id="card1">
+                            
                         </div>
-                      </div>
-                      <div class="card" id="card5">
-                        <div class="card-body">
-                          <h5 class="card-title">Date</h5>
-                          <p class="card-text">Temp:</p>
-                          <p class="card-text">Wind:</p>
-                          <p class="card-text">Humidity:</p>
                         </div>
-                      </div>
-                  </div>
+                        <div class="card">
+                        <div class="card-body" id="card2">
+                            
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-body"  id="card3">
+                            
+                        </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body"  id="card4">
+                            
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body"  id="card5">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         

@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.container h1 {
+header {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -12,4 +12,42 @@
   );
   color: white;
   text-align: center;
+  
+}
+
+.card-body p{
+  padding: 0 15px;  
+}
+
+.current {
+  border: 1px black solid;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.main {
+  margin-left: 20px;
+}
+.city-search {
+  width: 100%;
+}
+
+.card {
+  background-color: rgb(44, 44, 88);
+  color: white;
+}
+
+.savedSearch {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgb(211, 209, 209);
+  border-radius: 5px;
+}
+
+.delete-btn {
+  width: 100%;
 }
